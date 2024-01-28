@@ -12,6 +12,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Color.Companion.White
+import androidx.compose.ui.graphics.Color.Companion.Yellow
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -51,7 +53,7 @@ class MainActivity : ComponentActivity() {
                                 .padding(vertical = 32.dp),
                             fontWeight = FontWeight.Light,
                             fontSize = 80.sp,
-                            color = Color.White,
+                            color = Color.Yellow,
                             maxLines = 2
                         )
                         Row(
@@ -79,7 +81,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "/",
-                                color = Orange,
+                                color = Yellow,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -121,7 +123,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "x",
-                                color = Orange,
+                                color = Yellow,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -163,7 +165,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "-",
-                                color = Orange,
+                                color = Yellow,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -205,7 +207,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "+",
-                                color = Orange,
+                                color = Yellow,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -238,7 +240,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "=",
-                                color = Orange,
+                                color = Yellow,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
